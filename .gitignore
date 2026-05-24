@@ -1,0 +1,24 @@
+# Ignorar carpetas específicas
+Library/
+**/Library/
+/Library/
+
+# Opcional: ignorar archivos comunes de Unity/Unreal
+*.cs.meta
+*.unity.meta
+*.prefab.meta
+*.asset.meta
+*.controller.meta
+*.anim.meta
+*.mat.meta
+*.fbx.meta
+*.png.meta
+*.jpg.meta
+
+# Ignorar carpetas temporales de editores
+Temp/
+obj/
+Build/
+Builds/
+Logs/
+UserSettings/
